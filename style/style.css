@@ -84,17 +84,18 @@ header{
     margin-bottom: 30px;
 }
 main{
-    width: 1140px;
+   
     margin: 0 auto;
 }
 /* about section styles */
 
 .about{
-    margin-top: 50px;
+    margin: 50px 230px;
     padding: 130px 150px;
     background: #FFF8F3;
     border-radius: 10px;
     text-align: center;
+   
 }
 .section-title{
     text-align: center;
@@ -121,4 +122,116 @@ main{
     font-weight: 700;
      font-size: 18px;
      color: #474747;
+}
+.what-i-do{
+    margin: 100px 200px;
+}
+.section-description-i-do{
+    color: #757575;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 50px 345px;
+}
+/* styles for Skills Container */
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 230px;
+
+}
+.skills{
+    width: 267px;
+height: 377px;
+background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding-top: 30px;
+padding-left: 30px;
+margin: 20px;
+
+
+}
+.skills-title{
+    width: 174px;
+height: 27px;
+font-weight: 700;
+font-size: 20px;
+margin-top: 30px;
+}
+.skills-description{
+    color: #757575;
+    width: 201px;
+height: 196px;
+font-weight: 400;
+font-size: 16px;
+margin-top: 20px;
+}
+/* styles of my resume section */
+
+.my-resume{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 230px;
+    
+}
+.resume-title{
+    text-align: center;
+   
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-bottom: 113px;
+}
+ 
+.degrees{
+    width: 511px;
+height: 175px;
+margin-bottom: 80px;
+}
+.degree-info-title{
+    
+
+font-weight: 700;
+font-size: 30px;
+color: #474747;
+margin-bottom: 30px;
+
+}
+.degree-title{
+   
+font-weight: 700;
+font-size: 25px;
+color: #474747;
+margin-bottom: 10px;
+}
+.study-status{
+    
+font-weight: 600;
+font-size: 20px;
+color: #757575;
+margin-bottom: 20px;
+}
+.degree-description{
+    width: 511px;
+height: 84px;
+font-weight: 400;
+font-size: 16px;
+color: #757575;
+}
+.resume-button{
+    background: #FD6E0A;
+    border: 0;
+    padding: 18px 36px;
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 700px;
+}
+/* contact me style */
+.contact-me{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 230px;
 }
